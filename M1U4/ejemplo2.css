@@ -1,0 +1,32 @@
+h1{
+    font-family: 'Franklin Gothic Medium';
+    color: beige;
+    background-color: black;
+    text-align: center;
+    text-transform: uppercase; /*mayuscula*/
+    
+}
+h2{
+    font-family: 'Franklin Gothic Medium';
+    color: beige;
+    background-color: black;
+    text-transform: uppercase;
+}
+h4{
+    font-family: 'Franklin Gothic Medium';
+    color: black;
+    text-transform: uppercase;
+}
+p
+    {
+    font-family: 'Franklin Gothic Medium';
+    
+}
+li{
+    font-family: 'Franklin Gothic Medium';
+}
+#caja{
+    background-color: beige;
+    width: 50%;
+    padding: 1px;
+}
