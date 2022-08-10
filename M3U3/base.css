@@ -1,0 +1,77 @@
+body {
+    color: black;
+    background: rgb(27, 27, 27);
+    font-size: 100%;
+
+}
+
+.contenedor {
+    width: 800px;
+    background: olive;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+nav {
+    background: rgb(196, 42, 42);
+    width: 150px;
+    float: left;
+
+}
+
+.contenido {
+    background: beige;
+    width: 400px;
+    margin: 0 0 0 25px;
+    float: left;
+}
+
+aside {
+    background: rgb(105, 104, 104);
+    float: right;
+    width: 180px;
+}
+
+@media screen and (min-width:230px) and (max-width:800px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .contenedor {
+        background: rgb(49, 115, 49);
+        width: 100%;
+
+    }
+
+    nav {
+        background: rgb(240, 240, 176);
+        float: none;
+        width: 100%;
+
+    }
+
+    .contenido {
+        background: beige;
+        float: none;
+        width: 100%;
+    }
+
+    aside {
+        background-color: blanchedalmond;
+        float: none;
+        width: 100%;
+    }
+
+    h1,
+    h2,
+    p {
+        text-align: center;
+    }
+
+
+
+
+
+}
